@@ -1,0 +1,119 @@
+    /* style.css */
+
+    /* Reset some default styles */
+    body, h1, h2, h3, p, ul, ol, li {
+      margin: 0;
+      padding: 0;
+      font-family: 'Raleway', sans-serif;
+    }
+
+    /* Basic styling for the container */
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Typography */
+    .heading {
+      font-size: 28px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .sub-heading {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .language p {
+      font-size: 16px;
+      margin-bottom: 8px;
+      color: #555;
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+      justify-content: center;
+    }
+
+    .btn:hover {
+      background-color: #007bff;
+      color: #fff;
+    }
+
+    /* Input fields */
+    input[type="text"],
+    textarea {
+      height: 30px;
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+
+    /* Form */
+    .user-form {
+      margin-top: 20px;
+    }
+
+    /* Result */
+    .result {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 4px;
+      height: 100px;
+    }
+
+    /* Language dropdown */
+    #language {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      background-color: #fff;
+    }
+
+    /* Line separator */
+    .line {
+      border: none;
+      border-top: 1px solid #ddd;
+      margin: 20px 0;
+    }
+
+    /* Icon styling */
+    .icon {
+      display: flex;
+      align-items: center;
+      margin-right: 10px;
+      color: #007bff;
+    }
+
+    /* Background colors */
+    .options {
+      background-color: #f0f0f0;
+      padding: 10px;
+      border-radius: 4px;
+    }
+
+    .buttons {
+      background-color: #f0f0f0;
+      padding: 10px;
+      border-radius: 4px;
+    }
+
+    /* Apply similar styling to other elements as needed */
